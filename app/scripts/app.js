@@ -1,4 +1,5 @@
 'use strict';
+
 angular
   .module('stoqaApp', [
     'ngAnimate',
@@ -17,6 +18,10 @@ angular
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
+      })
+      .when('/search', {
+        templateUrl: 'views/search.html',
+        controller: ''
       })
       .otherwise({
         redirectTo: '/'
