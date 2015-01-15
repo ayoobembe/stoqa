@@ -76,4 +76,15 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  /* Search page styling */
+  .seach_box {
+    min-height: 50%;
+    background-color: grey;
+  }
+
+  .search_group {
+    padding: 5% 0% 50% 0%;
+  }
+
 }
